@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.342 s <<< FAILURE! - in runners.TestRunner
+feature(runners.TestRunner)  Time elapsed: 5.474 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: Unable to locate element: div.medium-down--one-half:nth-child(2) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > span:nth-child(2)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC', ip: '192.168.1.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 18236, moz:profile: C:\Users\chloe\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 421ec65e-cd6b-47ea-8529-84140bd9dfd1
+*** Element info: {Using=css selector, value=div.medium-down--one-half:nth-child(2) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > span:nth-child(2)}
+	at runners.TestRunner.feature(TestRunner.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: div.medium-down--one-half:nth-child(2) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > span:nth-child(2)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC', ip: '192.168.1.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 18236, moz:profile: C:\Users\chloe\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 421ec65e-cd6b-47ea-8529-84140bd9dfd1
+*** Element info: {Using=css selector, value=div.medium-down--one-half:nth-child(2) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > span:nth-child(2)}
+
